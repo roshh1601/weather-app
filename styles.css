@@ -1,0 +1,54 @@
+/* styles.css */
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    height: 100vh; 
+    background: linear-gradient(to bottom, #cce0ff, #216ad8); /* Replace these colors with your preferred gradient */
+  }
+  
+  .window {
+    width: 400px;
+    max-height: 300px;
+    margin: 150px auto;
+    background-color: #fff;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  }
+  
+  .title-bar {
+    background-color: #5697ec;
+    border-bottom: 1px solid #ccc;
+    padding: 8px;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+  }
+  
+  .title {
+    font-size: 18px;
+    font-weight: bold;
+  }
+  
+  .content {
+    padding: 20px;
+  }
+  
+  input[type="text"],
+  button {
+    padding: 8px;
+    margin-bottom: 10px;
+  }
+  
+  button {
+    background-color: #8cbbf8;
+    color: #000000;
+    border: none;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #5697ec;
+  }
+  
